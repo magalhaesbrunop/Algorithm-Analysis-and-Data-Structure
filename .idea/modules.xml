@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Algorithm Analysis and Data Structure.iml" filepath="$PROJECT_DIR$/.idea/Algorithm Analysis and Data Structure.iml" />
+      <module fileurl="file://$USER_HOME$/Course Machine Learn and Data Science with Python/.idea/Course Machine Learn and Data Science with Python.iml" filepath="$USER_HOME$/Course Machine Learn and Data Science with Python/.idea/Course Machine Learn and Data Science with Python.iml" />
+      <module fileurl="file://$USER_HOME$/LinearAlgebraWithPython/.idea/LinearAlgebraWithPython.iml" filepath="$USER_HOME$/LinearAlgebraWithPython/.idea/LinearAlgebraWithPython.iml" />
+      <module fileurl="file://$USER_HOME$/PythonAulas/.idea/PythonAulas.iml" filepath="$USER_HOME$/PythonAulas/.idea/PythonAulas.iml" />
+      <module fileurl="file://$USER_HOME$/PythonExercicios/.idea/PythonExercicios.iml" filepath="$USER_HOME$/PythonExercicios/.idea/PythonExercicios.iml" />
+    </modules>
+  </component>
+</project>
