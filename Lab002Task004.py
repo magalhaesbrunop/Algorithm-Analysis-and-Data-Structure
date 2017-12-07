@@ -6,7 +6,6 @@
 """
 import random
 
-
 class Backpack:
     def __init__(self, weight, capacity):
         self.weight = weight
@@ -27,7 +26,7 @@ def selectionsort(list, leng):
     for i in range(0, leng - 1):
         min = i
         for j in range(i + 1, leng):
-            if list[min].valorporunidad > list[j].valueoportunity:
+            if list[min].valueoportunity > list[j].valueoportunity:
                 min = j
         aux = list[min]
         list[min] = list[i]
@@ -49,22 +48,21 @@ objects.append(Object(80, 1))
 objects.append(Object(15, 7))
 
 selectionsort(objects, len(objects))
-
 result = []
 for i in range(len(objects)):
     result.append(0)
 
-i = len(objetos) - 1  # empezamos desde el final porque están ordenados de menor a mayor
-while (mochila.peso < mochila.capacidad):
-    objeto = objetos[i]
-    if ((mochila.peso + objeto.peso) <= mochila.capacidad):
-        resultado[i] = 1
-        mochila.meterObjeto(objeto)
+i = len(objects) - 1  
+while (bag.weight < bag.capacity):
+    object = objects[i]
+    if ((bag.weight + bag.capacity) <= bag.capacity):
+        result[i] = 1
+        bag.meterObject(object)
     else:
-        resultado[i] = (mochila.capacidad - mochila.peso) / objeto.peso
-        mochila.peso = mochila.capacidad
+        result[i] = (bag.capacity - bag.weight) / object.weight
+        bag.weight = bag.capacity
     i -= 1
 
-print("Resultado: Fracciones de los objetos en la mochila: ")
-for i in range(len(resultado) - 1, -1, -1):
-    print("Objeto ", i, ": ", resultado[i])
+print("Result: Fractions in the bag: ")
+for i in range(len(result) - 1, -1, -1):
+    print("Object ", i, ": ", result[i])
